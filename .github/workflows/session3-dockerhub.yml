@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - demo/docker-desktop-arm64
+      - feature/push_image_docker_hub
 
 jobs:
   build-and-push:
