@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - feature/push_image_docker_hub
+      - feature/grafana
 
 jobs:
   build-and-push:
