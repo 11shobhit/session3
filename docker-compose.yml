@@ -17,7 +17,8 @@ services:
       retries: 5
 
   telemetry-service:
-    build: ./mytelemetry
+    #build: ./mytelemetry
+    image: 11shobhit/mytelemetry:latest
     container_name: telemetry-publisher-1
     environment:
       MQTT_BROKER_HOST: mqtt-broker # Refers to the service name within the Docker network
